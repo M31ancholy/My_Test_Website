@@ -3,16 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="test.js"></script>
+    <style>
+        .hezi {color: brown;}
+    </style>
 </head>
-<body>
-    <div></div>
+<body style="display: flex;
+flex-direction: column;
+align-items: center">
+    <script src="test.js"></script>
+    <div>
+        <p>Good Morning!</p>
+    </div>
     <p>Welcome to this page</p>
-    <div style="accent-color: azure;
-         margin:30px;
-         padding: 15px">
+    <div  style="transform-origin: center bottom;
+         color:gold;
+         z-index: 2001;">
         <p>In here, you will see nothing </p>
-        <a href="https://www.baidu.com">点击此处打开百度</a>
+        <p class="hezi">In here, you will see nothing </p>
+        <p class="hezi">In here, you will see nothing </p>
+        <p class="hezi">In here, you will see nothing </p>
+        <a href="https://www.bing.com">点击此处打开百度?</a>
     </div>
 </body>
 </html>
